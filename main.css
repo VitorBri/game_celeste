@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header,
+section h2,
+section h3,
+form button{
+    font-family: 'Bowlby One SC', cursive;
+    font-weight: normal;
+}
+body,
+input,
+textarea{
+    font-family: 'Hind', sans-serif;
+    background-color:rgb(209, 220, 239) ;
+}
+header{
+    padding: 20px 0;
+    background-color: rgb(126, 54, 159);
+    color: #ecf0f1;
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+section .container p{
+    font-size:18px ;
+}
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .container{
+    margin-top: 150px;
+}
+.container{
+    max-width:1400px ;
+    width: 100%;
+    margin: 0 auto;
+
+}
+section img{
+    height: 400px;
+    margin-right: 24px;
+}
+section .container {
+    align-items: flex-start;
+}
+section {
+    padding: 20px 0;
+}
+footer{
+    background-color: rgb(126, 54, 159);
+    color: #ecf0f1;
+    padding: 16px 0 ;
+}
+#comentario .container{
+    display: block;
+}
+.comentarios{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+form button {
+    background-color: rgb(126, 54, 159);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgb(198, 107, 234);
+}
+input:focus, textarea:focus {
+    outline-color:rgb(126, 54, 159) ;
+}
+h1 {
+    font-size:40px ;
+}
